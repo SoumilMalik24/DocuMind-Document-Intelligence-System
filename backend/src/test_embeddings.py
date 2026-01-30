@@ -1,7 +1,7 @@
 from ingestion.loader import load_pdfs_from_folder
 from ingestion.chunking import chunk_documents
 from ingestion.embeddings import create_vector_store
-from retriever.retriever import get_retriever
+from retriever import get_retriever
 from config import DATA_DIR
 
 print("Loading documents...")
